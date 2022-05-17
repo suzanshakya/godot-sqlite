@@ -25,14 +25,14 @@ src/gdsqlite.cpp \
 src/library.cpp \
 src/vfs/gdsqlite_vfs.cpp \
 src/vfs/gdsqlite_file.cpp \
-src/sqlite/sqlite3.c \
+src/sqleet/sqleet.c
 
 LOCAL_C_INCLUDES := \
 godot-cpp/godot-headers \
 godot-cpp/include/ \
 godot-cpp/include/core \
 godot-cpp/include/gen \
-src/ \
+src/
 
 LOCAL_STATIC_LIBRARIES := godot-prebuilt
 
